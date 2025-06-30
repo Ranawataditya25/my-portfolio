@@ -3,6 +3,7 @@ import Hero from './sections/Hero.jsx'
 import About from './sections/About.jsx'
 import Projects from './sections/Projects.jsx'
 import Clients from './sections/Clients.jsx'
+import Footer from './sections/Footer.jsx'
 
 const App = () => {
   return (
@@ -12,6 +13,8 @@ const App = () => {
       <About />
       <Projects />
       <Clients />
+      
+      <Footer />
     </main>
   )
 }
